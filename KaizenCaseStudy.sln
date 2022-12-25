@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B04C6872-44F1-400D-B2B7-992CDF464FE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Question1", "Question1", "{832E8257-D862-4123-997B-8C5F1C7B38ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaizen.CodeGeneration", "src\Question1\Kaizen.CodeGeneration\Kaizen.CodeGeneration.csproj", "{0BA389BB-8B37-4081-B655-AC75ACF92EBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Question2", "Question2", "{1BD3E1DD-43DE-4CE9-AB83-F44A02118392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaizen.JsonParser", "src\Question2\Kaizen.JsonParser\Kaizen.JsonParser.csproj", "{611DB758-7DBD-421B-B652-50CF27DF8CC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E92BF53D-E1A2-4EC9-8E55-ADE76B858594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaizen.CodeGeneration.UnitTests", "tests\Kaizen.CodeGeneration.UnitTests\Kaizen.CodeGeneration.UnitTests.csproj", "{D5E3A7DA-F96D-4C39-ABA9-2BD6438B95FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaizen.JsonParser.UnitTests", "tests\Kaizen.JsonParser.UnitTests\Kaizen.JsonParser.UnitTests.csproj", "{580216E2-5732-4CD5-8C9D-50F1A0BF8909}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BA389BB-8B37-4081-B655-AC75ACF92EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA389BB-8B37-4081-B655-AC75ACF92EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA389BB-8B37-4081-B655-AC75ACF92EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA389BB-8B37-4081-B655-AC75ACF92EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{611DB758-7DBD-421B-B652-50CF27DF8CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611DB758-7DBD-421B-B652-50CF27DF8CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611DB758-7DBD-421B-B652-50CF27DF8CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611DB758-7DBD-421B-B652-50CF27DF8CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E3A7DA-F96D-4C39-ABA9-2BD6438B95FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E3A7DA-F96D-4C39-ABA9-2BD6438B95FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E3A7DA-F96D-4C39-ABA9-2BD6438B95FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E3A7DA-F96D-4C39-ABA9-2BD6438B95FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580216E2-5732-4CD5-8C9D-50F1A0BF8909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580216E2-5732-4CD5-8C9D-50F1A0BF8909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580216E2-5732-4CD5-8C9D-50F1A0BF8909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580216E2-5732-4CD5-8C9D-50F1A0BF8909}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{832E8257-D862-4123-997B-8C5F1C7B38ED} = {B04C6872-44F1-400D-B2B7-992CDF464FE9}
+		{0BA389BB-8B37-4081-B655-AC75ACF92EBB} = {832E8257-D862-4123-997B-8C5F1C7B38ED}
+		{1BD3E1DD-43DE-4CE9-AB83-F44A02118392} = {B04C6872-44F1-400D-B2B7-992CDF464FE9}
+		{611DB758-7DBD-421B-B652-50CF27DF8CC7} = {1BD3E1DD-43DE-4CE9-AB83-F44A02118392}
+		{D5E3A7DA-F96D-4C39-ABA9-2BD6438B95FF} = {E92BF53D-E1A2-4EC9-8E55-ADE76B858594}
+		{580216E2-5732-4CD5-8C9D-50F1A0BF8909} = {E92BF53D-E1A2-4EC9-8E55-ADE76B858594}
+	EndGlobalSection
+EndGlobal
