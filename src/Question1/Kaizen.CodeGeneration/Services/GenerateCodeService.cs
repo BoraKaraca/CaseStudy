@@ -14,7 +14,6 @@ namespace Kaizen.CodeGeneration.Services
         public string GenerateCode()
         {
             char[] charSet = CharSetField.ToCharArray();
-
             using var rng = RandomNumberGenerator.Create();
             byte[] bytes = new byte[8];
             rng.GetBytes(bytes);

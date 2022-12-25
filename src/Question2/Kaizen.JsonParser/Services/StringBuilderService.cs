@@ -13,7 +13,6 @@ namespace Kaizen.JsonParser.Services
         {
             var stringBuilder = new StringBuilder();
             var lineNumber = 1;
-
             var tempXValue = 0;
             var tempLineNumber = 0;
 

@@ -23,7 +23,7 @@ public class GenerateCodeUnitTest
     [InlineData("AAC")]
     [InlineData("AAA")]
     [InlineData("E2XQ")]
-    public void GenerateCode_WithCharset_ExpectedEqualCharsetPattern(string charSet)
+    public void GenerateCode_WithCharset_ExpectedEqualCharsetPatternWithRegex(string charSet)
     {
         // Arrange
         var generatedCodeService = new GenerateCodeService();

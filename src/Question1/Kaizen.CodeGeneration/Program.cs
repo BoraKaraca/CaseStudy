@@ -103,6 +103,5 @@ static bool CheckCodeServiceProvider(IServiceProvider serviceProvider, string co
 static string GenerateCodeServiceProvider(IServiceProvider serviceProvider)
 {
     var generateCodeService = serviceProvider.GetRequiredService<IGenerateCodeService>();
-
     return generateCodeService.GenerateCode();
 }
