@@ -17,7 +17,7 @@ static void Execute()
 {
     var serviceProvider = ServiceRegistration();
 
-    var jsonFile = GenerateCodeServiceProvider(serviceProvider, "response.json");
+    var jsonFile = ReadFromEmbeddedFileServiceProvider(serviceProvider, "response.json");
 
     var jsonModelFromSerializer = JsonSerializer.Deserialize<List<JsonModel>>(jsonFile);
 
@@ -27,7 +27,7 @@ static void Execute()
     Console.WriteLine($"Please check this path for txt file.{Environment.NewLine}{createdFilePath}");
 }
 
-static string GenerateCodeServiceProvider(IServiceProvider serviceProvider, string resourceName)
+static string ReadFromEmbeddedFileServiceProvider(IServiceProvider serviceProvider, string resourceName)
 {
     var readFromEmbededFileService = serviceProvider.GetRequiredService<IReadFromEmbeddedFileService>();
     return readFromEmbededFileService.GetFromResources(resourceName);
