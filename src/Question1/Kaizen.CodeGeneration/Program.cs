@@ -1,6 +1,4 @@
-﻿using Kaizen.CodeGeneration.Services;
-
-static IServiceProvider ServiceRegistration()
+﻿static IServiceProvider ServiceRegistration()
 {
     return new ServiceCollection()
                .AddScoped<IGenerateCodeService, GenerateCodeService>()

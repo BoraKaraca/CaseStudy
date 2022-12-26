@@ -1,7 +1,4 @@
-﻿using Kaizen.JsonParser.Model;
-using Kaizen.JsonParser.Services;
-
-static IServiceProvider ServiceRegistration()
+﻿static IServiceProvider ServiceRegistration()
 {
     return new ServiceCollection()
                .AddSingleton<IReadFromEmbeddedFileService, ReadFromEmbeddedFileService>()
